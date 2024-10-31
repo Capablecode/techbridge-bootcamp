@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: aliceblue;
+}
+h1 {
+  text-align: center;
+  color: blue;
+  font-size: 4rem;
+  /* padding: 1.7rem 2rem; */
+}
+.form-container {
+  margin: 1rem auto;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1), 0px 8px 16px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  max-width: 450px;
+  border-radius: 8px;
+}
+.account_create_div {
+  text-align: center;
+  padding: 1rem 1rem;
+}
+.account_create_div h2 {
+  font-size: 2.1rem;
+  margin-bottom: 0.4rem;
+}
+.account_create_div span {
+  font-size: 1.4rem;
+  color: #1c1e21;
+}
+/* .ash-rule {
+  margin-bottom: 0.5rem;
+} */
+form {
+  padding: 1.3rem 1.3rem;
+  margin: 0 auto;
+}
+.form__input {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.form__input input {
+  width: 50%;
+  outline: none;
+  padding: 0.9rem 0.6rem;
+  border: 1px solid #ccd0d5;
+  outline: none;
+  border-radius: 5px;
+}
+.form__input input::placeholder {
+  font-size: 1.2rem;
+}
+
+.dob__div select {
+  width: 32.1%;
+  padding: 0.9rem 0.5rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid #ccd0d5;
+  outline: none;
+  border-radius: 5px;
+  margin-right: 0.2rem;
+}
+.dob__text {
+  margin-top: 1rem;
+  margin-bottom: 0.4rem;
+  color: #adadad;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.dob__text span {
+  border-radius: 50%;
+  padding: 0.2px 3px;
+  background-color: black;
+  color: #fff;
+}
+
+.gender__div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
+}
+.gender__div label {
+  border: 1px solid #ccd0d5;
+  padding: 0.9rem 0.5rem;
+  width: 33.33%;
+  font-size: 1.2rem;
+  outline: none;
+  border-radius: 5px;
+  text-align: center;
+}
+.gender__div input[type="radio"] {
+  margin-left: 3rem;
+}
+
+.gender__text {
+  color: #adadad;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.gender__text span {
+  border-radius: 50%;
+  padding: 0.3px 3px;
+  background-color: black;
+  color: #fff;
+}
+.full_width_input {
+  width: 100%;
+}
+.full_width_input input {
+  padding: 0.9rem 0.3rem;
+  outline: none;
+  margin-top: 1rem;
+  width: 100%;
+  font-size: 1.2rem;
+  border: 1px solid #ccd0d5;
+  border-radius: 5px;
+}
+.break {
+  margin-bottom: 2rem;
+}
+
+.last__text__1 {
+  margin-bottom: 1.3rem;
+  font-size: 1.14rem;
+}
+.last__text__1 a {
+  text-decoration: none;
+}
+.last__text__2 a {
+  text-decoration: none;
+}
+.last__text__2 {
+  margin-bottom: 1.3rem;
+  font-size: 1.14rem;
+}
+.sign-up-btn {
+  margin: 0 auto;
+  padding: 0.8rem 3rem;
+  background-color: green;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.3rem;
+  outline: none;
+  border: none;
+  width: 50%;
+  border-radius: 8px;
+  text-align: center;
+}
+.sign-up-btn a {
+  color: #fff;
+  text-decoration: none;
+}
+.already__have__account {
+  margin-top: 2rem;
+  color: blue;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.already__have__account a {
+  text-decoration: none;
+}

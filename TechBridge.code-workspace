@@ -1,0 +1,12 @@
+{
+  "folders": [
+	{
+		"name": "TechBridge",
+		"path": "."
+	}
+],
+  "settings": {
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true
+  }
+}
